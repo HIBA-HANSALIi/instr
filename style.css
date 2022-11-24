@@ -1,0 +1,80 @@
+*{
+
+box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+}
+.side{
+    height:100vh ;
+     width:10%; 
+     background:black;
+     margin:0;
+     padding:0;
+}
+
+
+.bgimage{
+    background-repeat: no-repeat !important;
+    background: url('assets/img/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg');
+    background-size: cover !important;
+
+    /* background-color: red !important; */
+    
+}
+.cardsignup{
+background: #ffffff82;
+}
+.card{
+    border-radius: 20px !important;
+}
+.custome-card{
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.app-sidebar{
+    background: #0A020F !important;
+}
+
+/* #content{
+    background-image: url("./assets/img/3192310.jpg") !important;
+    background-size: cover !important;
+} */
+/* body{
+   
+    background-image: url("./assets/img/3192310.jpg") !important;
+    background-size: cover !important;
+} */
+body{
+   
+    background-image: url("assets/img/silivan-munguarakarama-NrR9gn3lFKU-unsplash.jpg") !important;
+    background-size: cover !important;
+}
+#sidebar{
+    background: rgba(0,0,0,.5) !important;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 10px 20px #0005;
+    color: white !important;
+}
+#app > div.app-sidebar-bg{
+    background: none;
+}
+/* a{
+
+text-decoration: none;
+}
+@media screen and (max-width: 740px){
+.menu-text{
+    display:none;  
+}
+.menu-icon{
+    margin-left: 10px !important; 
+   
+}
+} */
+
+.card-dash{
+    border: none;
+}
